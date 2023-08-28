@@ -1,0 +1,38 @@
+/* Default css */
+* {
+  margin: 0px;
+  padding: 0px;
+}
+
+body {
+  background: fixed;
+  background-image: url('../imgs/background.jpg');
+  background-size: cover;
+  position: absolute;
+  top: 0;
+  left: 0;
+  height: 100%;
+  width: 100%;
+  overflow: hidden;
+  animation: hue 20s linear infinite;
+}
+
+@keyframes hue {
+  0% {
+    /* filter: hue-rotate(0deg); */
+    backdrop-filter: hue-rotate(0deg);
+    /* -webkit-backdrop-filter: hue-rotate(0deg); */
+  }
+
+  50% {
+    /* filter: hue-rotate(360deg); */
+    backdrop-filter: hue-rotate(360deg);
+    /* -webkit-backdrop-filter: hue-rotate(360deg); */
+  }
+
+  100% {
+    /* filter: hue-rotate(0deg); */
+    backdrop-filter: hue-rotate(0deg);
+    /* -webkit-backdrop-filter: hue-rotate(0deg); */
+  }
+}
