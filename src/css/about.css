@@ -1,0 +1,39 @@
+/* About CSS File */
+.aboutWrapper {
+    display: flex;
+    justify-content: center;
+    position: relative;
+}
+
+.aboutWrapper::before {
+    content: "";
+    background-color: black;
+    border: 3px solid rgb(74, 74, 255);
+    border-radius: 50px;
+    position: absolute;
+    top: 0;
+    left: 0;
+    margin: 20px 0px;
+    padding: 2vw;
+    height: 63vh;
+    width: 85vw;
+    opacity: .5;
+}
+
+/* .aboutWrapper::after {
+    content: "";
+    display: flex;
+    justify-content: center;
+} */
+
+.aboutTitle {
+    align-items: center;
+    color: white;
+    font-size: 40px;
+    padding-top: 50px;
+    position: absolute;
+    left: 20vw;
+    text-align: center;
+    width: 50vw;
+    /* z-index: 1; */
+}
